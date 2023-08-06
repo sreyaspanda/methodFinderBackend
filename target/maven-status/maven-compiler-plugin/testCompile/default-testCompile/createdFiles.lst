@@ -1,0 +1,5 @@
+com/example/demo/pageObjects/LoginPageSteps.class
+com/example/demo/pageObjects/BaseSetup.class
+com/example/demo/steps/stepDefinition.class
+com/example/demo/DemoApplicationTests.class
+com/example/demo/runner/TestRunner.class
