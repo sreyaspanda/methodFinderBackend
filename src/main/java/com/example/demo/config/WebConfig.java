@@ -10,9 +10,9 @@ public class WebConfig extends WebMvcConfigurerAdapter {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         // Allow cross-origin requests from all domains for this specific endpoint
-        registry.addMapping("/api/login")
+        registry.addMapping("/**")
                 .allowedOrigins("*") // Change * to specific origins if needed
-                .allowedMethods("POST")
+                .allowedMethods("*")
                 .allowedHeaders("*");
     }
 }
